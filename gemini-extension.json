@@ -1,0 +1,13 @@
+{
+  "name": "dns-data-remote",
+  "version": "0.2.1",
+  "description": "DNS-DATA Remote MCP: authorized remote file, terminal and device operations.",
+  "mcpServers": {
+    "dns-data": {
+      "httpUrl": "https://mcp.dns-data.com/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

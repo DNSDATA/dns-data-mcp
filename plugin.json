@@ -1,0 +1,21 @@
+{
+  "name": "dns-data-mcp",
+  "description": "Connect compatible AI assistants to authorized Windows and macOS computers through DNS-DATA's hosted MCP endpoint.",
+  "version": "0.2.1",
+  "author": {
+    "name": "DNS-DATA",
+    "url": "https://dns-data.com"
+  },
+  "repository": "https://github.com/DNSDATA/dns-data-mcp",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "mcp",
+    "remote-mcp",
+    "remote-access",
+    "device-management",
+    "terminal",
+    "filesystem",
+    "ai-tools"
+  ],
+  "mcpServers": ".mcp.json"
+}
