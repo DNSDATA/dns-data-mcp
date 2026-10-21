@@ -80,8 +80,12 @@ If this month's allowance is exhausted, quota-limited calls can resume after the
 
 Publishing a manifest in this repository **does not automatically publish DNS-DATA to an MCP Registry or AI marketplace**.
 
-## Source availability
+## License and source availability
 
-This **public repository contains documentation and integration metadata**, not the proprietary DNS-DATA hosted service or its server-side source code. See [LICENSE](LICENSE). Never post passwords, tokens, pairing codes, private device information, or sensitive logs in issues.
+**Files published in this public repository**—documentation, configuration examples, and integration metadata—are made available under the [MIT License](LICENSE). Reuse of these files is permitted under that license, including its requirement to preserve the copyright and permission notice.
 
-© DNS-DATA. All rights reserved.
+**Not covered by this repository's license:** the hosted DNS-DATA service, its proprietary backend and unpublished source code, private server configuration, user data, and any software or packages distributed separately from this repository. Those components remain subject to their own terms and are not released by licensing the files here. The DNS-DATA name and logos are not granted as trademarks under the MIT License.
+
+Never share passwords, access tokens, pairing codes, private device information, or sensitive logs in issues.
+
+© 2026 Shenyang Youyida Network Technology Information Co., Ltd. Public repository materials licensed as stated above; all rights reserved in proprietary components.
