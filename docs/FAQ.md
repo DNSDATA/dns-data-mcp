@@ -22,7 +22,7 @@ Clients that support **remote MCP / Streamable HTTP** and the appropriate OAuth 
 
 ## Why does an AI client connect but no devices show as online?
 
-OAuth authorization does not start the device runtime. On the target computer, run `npx -y @dns-data/remote@0.2.1`, complete pairing, and keep its window open. Confirm that you use the same DNS-DATA account and that the device entitlement is active.
+OAuth authorization does not start the device runtime. On the target computer, run `npx -y @dns-data/remote@0.2.3`, complete pairing, and keep its window open. Confirm that you use the same DNS-DATA account and that the device entitlement is active.
 
 ## Does merely adding the MCP URL let an AI read my files?
 
