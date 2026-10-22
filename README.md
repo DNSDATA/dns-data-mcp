@@ -8,7 +8,10 @@ DNS-DATA is a hosted **remote Model Context Protocol (MCP)** service. Connect a 
 
 **Remote MCP URL:** `https://mcp.dns-data.com/mcp`  
 **Transport:** Streamable HTTP · **Sign-in:** OAuth 2.0  
-**Device launcher:** `@dns-data/remote@0.2.1`
+**Device launcher:** `@dns-data/remote@0.2.3`
+
+**Directory / integration note:** DNS-DATA is a **hosted Streamable HTTP MCP service** with **OAuth 2.0**. This public repository provides integration documentation and metadata; the hosted backend is proprietary. The `npx` launcher connects a user's explicitly paired computer to DNS-DATA—it is **not** the MCP URL entered in an AI client. Review [setup](docs/SETUP.md), [security](SECURITY.md), and the [official website](https://dns-data.com/) for configuration and access requirements.
+
 
 > **Free monthly allowance:** 1 registered computer and **10,000 DNS-DATA MCP tool calls each month**. The allowance automatically resets for the next month (00:00 UTC on the 1st). [Set up DNS-DATA →](docs/SETUP.md)
 
@@ -29,7 +32,7 @@ Commands, file access, and privileged operations depend on the connected client'
 **1. Start DNS-DATA on the computer you want to use.** Install Node.js 18+ on a supported **Windows x64** or **macOS Apple Silicon** device, then run:
 
 ```bash
-npx -y @dns-data/remote@0.2.1
+npx -y @dns-data/remote@0.2.3
 ```
 
 Sign in or register, follow the device pairing instructions, and confirm that the pairing code and computer details match. Keep the launcher window open while working; closing it disconnects the device.
