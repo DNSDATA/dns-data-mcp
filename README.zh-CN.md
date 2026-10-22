@@ -8,7 +8,10 @@ DNS-DATA 是通过 **Model Context Protocol（MCP）** 提供的远程设备连�
 
 **MCP 连接地址：** `https://mcp.dns-data.com/mcp`  
 **协议：** Streamable HTTP · **认证：** OAuth 2.0  
-**设备启动器：** `@dns-data/remote@0.2.1`
+**设备启动器：** `@dns-data/remote@0.2.3`
+
+**MCP 目录收录说明：** DNS-DATA 是采用 **Streamable HTTP**、使用 **OAuth 2.0** 授权的托管远程 MCP 服务。本公开仓库仅提供接入文档及元数据，正式服务端源码不公开。`npx` 启动器只负责连接用户完成绑定的电脑，**并非 AI 客户端应填写的 MCP 服务地址**。审核与接入可参考[中文教程](docs/SETUP.zh-CN.md)、[安全说明](SECURITY.md)和[官方网站](https://dns-data.com/)。
+
 
 > **免费套餐每月额度：** 支持 **1 台设备，每月 10,000 次 DNS-DATA MCP 工具调用**，**次月自动恢复额度**（UTC 每月 1 日 00:00，北京时间 08:00）。[查看接入教程 →](docs/SETUP.zh-CN.md)
 
@@ -29,7 +32,7 @@ DNS-DATA 是通过 **Model Context Protocol（MCP）** 提供的远程设备连�
 **第一步：在需要操作的电脑上启动服务。** 目前支持 Windows x64 和 macOS Apple Silicon。安装 Node.js 18 或更高版本，在终端或 PowerShell 中运行：
 
 ```bash
-npx -y @dns-data/remote@0.2.1
+npx -y @dns-data/remote@0.2.3
 ```
 
 按照提示注册或登录 DNS-DATA，核对设备信息和配对验证码后完成绑定。**保持启动窗口打开，设备即可保持连接；关闭窗口则设备下线。**
