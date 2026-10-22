@@ -18,7 +18,7 @@
 Windows：打开 PowerShell。macOS：打开“终端”，执行：
 
 ```bash
-npx -y @dns-data/remote@0.2.1
+npx -y @dns-data/remote@0.2.3
 ```
 
 首次运行按照网页或启动器提示注册／登录账号、检查设备信息、核对 8 位验证码，并确认设备绑定。只有你主动完成授权的电脑才能作为目标设备使用。
