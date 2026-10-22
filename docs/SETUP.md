@@ -15,7 +15,7 @@
 2. Run:
 
    ```bash
-   npx -y @dns-data/remote@0.2.1
+   npx -y @dns-data/remote@0.2.3
    ```
 
 3. If prompted, sign in with your existing account and complete the browser-based device pairing confirmation.
