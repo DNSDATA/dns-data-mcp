@@ -3,6 +3,7 @@
 **Let your AI assistant work with your own Windows or macOS computer—not just answer questions.**
 
 [![AllMCPs Verified](https://allmcps.com/api/badge/dns-data-remote-mcp)](https://allmcps.com/mcp/dns-data-remote-mcp?verify=3e4e5da3-d2b9-4826-8216-96d432a869f6)
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/dnsdata/dns-data-mcp)
 
 [简体中文](README.zh-CN.md) · [Official website](https://dns-data.com/) · [Monthly Free allowance](#free-monthly-allowance) · [Setup guide](docs/SETUP.md) · [npm launcher](https://www.npmjs.com/package/@dns-data/remote)
 
