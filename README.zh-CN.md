@@ -1,5 +1,7 @@
 # DNS-DATA Remote｜让 AI 连接你授权的电脑
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/dnsdata/dns-data-mcp)
+
 **让 AI 不只回答问题，还能在你的授权下读取文件、检查系统、执行命令和处理实际任务。**
 
 [English](README.md) · [官方网站](https://dns-data.com/) · [每月免费额度](#免费套餐每月调用额度) · [中文接入指南](docs/SETUP.zh-CN.md) · [npm 启动器](https://www.npmjs.com/package/@dns-data/remote)
