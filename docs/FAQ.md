@@ -22,7 +22,7 @@ Clients that support **remote MCP / Streamable HTTP** and the appropriate OAuth 
 
 ## Why does an AI client connect but no devices show as online?
 
-OAuth authorization does not start the device runtime. On the target computer, run `npx -y @dns-data/remote@0.2.3`, complete pairing, and keep its window open. Confirm that you use the same DNS-DATA account and that the device entitlement is active.
+OAuth authorization does not start the device runtime. On the target computer, run `npx -y @dns-data/remote@latest`, complete pairing, and keep its window open. Confirm that you use the same DNS-DATA account and that the device entitlement is active.
 
 ## Does merely adding the MCP URL let an AI read my files?
 
@@ -42,7 +42,7 @@ The Free tier supports **one registered device**. If you need to switch devices,
 
 ## What if the monthly quota is exhausted?
 
-Quota-limited tool calls pause until the next UTC calendar month's allowance is automatically restored. Reaching the monthly allowance does not by itself delete your account or registered device.
+With stable launcher `0.2.4` or newer, the device launcher displays a bilingual quota warning and opens the [official DNS-DATA Android app on Google Play](https://play.google.com/store/apps/details?id=com.dnsdata.remote) for optional subscription. Quota-limited tool calls pause until the next UTC calendar month's allowance is automatically restored, unless an eligible paid entitlement applies. Reaching the monthly allowance does not by itself delete your account or registered device.
 
 ## Is the hosted service open source?
 
