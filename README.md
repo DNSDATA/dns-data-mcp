@@ -11,7 +11,7 @@ DNS-DATA is a hosted **remote Model Context Protocol (MCP)** service. Connect a 
 
 **Remote MCP URL:** `https://mcp.dns-data.com/mcp`  
 **Transport:** Streamable HTTP · **Sign-in:** OAuth 2.0  
-**Device launcher:** `@dns-data/remote@0.2.3`
+**Device launcher:** `@dns-data/remote@latest` (current stable release: `0.2.4`)
 
 **Directory / integration note:** DNS-DATA is a **hosted Streamable HTTP MCP service** with **OAuth 2.0**. This public repository provides integration documentation and metadata; the hosted backend is proprietary. The `npx` launcher connects a user's explicitly paired computer to DNS-DATA—it is **not** the MCP URL entered in an AI client. Review [setup](docs/SETUP.md), [security](SECURITY.md), and the [official website](https://dns-data.com/) for configuration and access requirements.
 
@@ -35,7 +35,7 @@ Commands, file access, and privileged operations depend on the connected client'
 **1. Start DNS-DATA on the computer you want to use.** Install Node.js 18+ on a supported **Windows x64** or **macOS Apple Silicon** device, then run:
 
 ```bash
-npx -y @dns-data/remote@0.2.3
+npx -y @dns-data/remote@latest
 ```
 
 Sign in or register, follow the device pairing instructions, and confirm that the pairing code and computer details match. Keep the launcher window open while working; closing it disconnects the device.
@@ -62,7 +62,7 @@ The **Free** tier includes:
 - **10,000 DNS-DATA MCP tool calls each calendar month**.
 - **Automatic allowance reset next month**, at 00:00 UTC on the 1st.
 
-If this month's allowance is exhausted, quota-limited calls can resume after the next month's reset. Your DNS-DATA tool-call allowance does not increase the message, token or billing limits imposed by an AI provider.
+With launcher version `0.2.4` or newer, exhausted Free quota triggers a bilingual notice in the running device launcher and opens the official [DNS-DATA Android app on Google Play](https://play.google.com/store/apps/details?id=com.dnsdata.remote) for an optional subscription. Quota-limited calls can also resume after the next month's reset. Your DNS-DATA tool-call allowance does not increase the message, token or billing limits imposed by an AI provider.
 
 [Try the Free tier: setup guide →](docs/SETUP.md)
 
