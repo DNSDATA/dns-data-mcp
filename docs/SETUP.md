@@ -21,7 +21,9 @@
 3. If prompted, sign in with your existing account and complete the browser-based device pairing confirmation.
 4. Keep the launcher running to make the computer available. Closing its window takes the device offline.
 
-The `@latest` tag currently resolves to stable release `0.2.4`. When Free quota is exhausted, the running launcher provides a bilingual notification and opens the [official Android app on Google Play](https://play.google.com/store/apps/details?id=com.dnsdata.remote) for optional subscription. The monthly allowance also resets automatically.\n\nThe launcher is the **device-side connector**, not the hosted MCP endpoint. No public IP address or incoming port forwarding is required for the standard workflow.
+The `@latest` tag currently resolves to stable release `0.2.4`. When Free quota is exhausted, the running launcher provides a bilingual notification and opens the [official Android app on Google Play](https://play.google.com/store/apps/details?id=com.dnsdata.remote) for optional subscription. The monthly allowance also resets automatically.
+
+The launcher is the **device-side connector**, not the hosted MCP endpoint. No public IP address or incoming port forwarding is required for the standard workflow.
 
 ## Connect an AI client
 
