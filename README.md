@@ -13,6 +13,8 @@ DNS-DATA is a hosted **remote Model Context Protocol (MCP)** service. Connect a 
 **Transport:** Streamable HTTP · **Sign-in:** OAuth 2.0  
 **Device launcher:** `@dns-data/remote@latest` (current stable release: `0.2.4`)
 
+**Stable release update (2026-11-03):** Run `npx -y @dns-data/remote@latest` to use version `0.2.4`. Existing device pairings are preserved when updating the launcher. The internal Runtime identifier `dnsdata-native-0.2.1` is independent of the npm launcher version.
+
 **Directory / integration note:** DNS-DATA is a **hosted Streamable HTTP MCP service** with **OAuth 2.0**. This public repository provides integration documentation and metadata; the hosted backend is proprietary. The `npx` launcher connects a user's explicitly paired computer to DNS-DATA—it is **not** the MCP URL entered in an AI client. Review [setup](docs/SETUP.md), [security](SECURITY.md), and the [official website](https://dns-data.com/) for configuration and access requirements.
 
 
