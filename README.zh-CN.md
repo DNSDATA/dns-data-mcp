@@ -14,7 +14,7 @@ DNS-DATA 是通过 **Model Context Protocol（MCP）** 提供的远程设备连�
 
 **正式版更新说明（2026-11-03）：** 运行 `npx -y @dns-data/remote@latest` 即使用 `0.2.4` 正式版。更新启动器不会自动解绑原有设备；内部 Runtime 标识 `dnsdata-native-0.2.1` 与 npm 启动器版本独立。
 
-**MCP 目录收录说明：** DNS-DATA 是采用 **Streamable HTTP**、使用 **OAuth 2.0** 授权的托管远程 MCP 服务。本公开仓库仅提供接入文档及元数据，正式服务端源码不公开。`npx` 启动器只负责连接用户完成绑定的电脑，**并非 AI 客户端应填写的 MCP 服务地址**。审核与接入可参考[中文教程](docs/SETUP.zh-CN.md)、[安全说明](SECURITY.md)和[官方网站](https://dns-data.com/)。
+**MCP 目录收录说明：** DNS-DATA 是采用 **Streamable HTTP**、使用 **OAuth 2.0** 授权的托管远程 MCP 服务。本公开仓库仅提供接入文档及元数据，正式服务端源码不公开。`npx` 启动器只负责连接用户完成绑定的电脑，**并非 AI 客户端应填写的 MCP 服务地址**。**第三方目录检测注意：** 设备启动器仅支持 Windows x64 与 macOS Apple Silicon；使用 Linux 环境执行 `npx -y @dns-data/remote@latest` 会返回“不支持的平台”，不能据此判断远程 MCP 服务故障。请使用 Streamable HTTP MCP 端点及 OAuth 流程检查服务可用性。审核与接入可参考[中文教程](docs/SETUP.zh-CN.md)、[安全说明](SECURITY.md)和[官方网站](https://dns-data.com/)。
 
 
 > **免费套餐每月额度：** 支持 **1 台设备，每月 10,000 次 DNS-DATA MCP 工具调用**，**次月自动恢复额度**（UTC 每月 1 日 00:00，北京时间 08:00）。[查看接入教程 →](docs/SETUP.zh-CN.md)
