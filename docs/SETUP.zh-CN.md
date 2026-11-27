@@ -14,6 +14,8 @@
 免费套餐支持 1 台已绑定设备、**每月 10,000 次 MCP 工具调用**；**次月自动恢复额度**（每月 1 日 00:00 UTC，北京时间 08:00）。
 
 ## Windows 图形用户端
+**发布互链：** [原有 MCP/npm 启动器 0.2.4](https://www.npmjs.com/package/@dns-data/remote) · [原有 GitHub v0.2.1 Release](https://github.com/DNSDATA/dns-data-mcp/releases/tag/v0.2.1) ⇄ [Windows 用户端 v0.1.27](../windows-client/README.zh-CN.md) · [总发布页面](../RELEASES.zh-CN.md)。
+
 
 Windows 10/11 x64 用户可安装独立的 [DNS-DATA Windows 用户端](../windows-client/README.zh-CN.md)，无需通过 npm 启动器运行。该版本线独立，支持服务启停、设备绑定及可选开机自启（默认关闭）。
 

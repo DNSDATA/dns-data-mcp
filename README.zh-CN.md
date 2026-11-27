@@ -20,6 +20,8 @@ DNS-DATA 是通过 **Model Context Protocol（MCP）** 提供的远程设备连�
 > **免费套餐每月额度：** 支持 **1 台设备，每月 10,000 次 DNS-DATA MCP 工具调用**，**次月自动恢复额度**（UTC 每月 1 日 00:00，北京时间 08:00）。[查看接入教程 →](docs/SETUP.zh-CN.md)
 
 ## 产品与下载
+**互相链接：** [Windows 用户端 v0.1.27](windows-client/README.zh-CN.md) ⇄ [MCP/npm 启动器 0.2.4](docs/SETUP.zh-CN.md) · [npm 发布](https://www.npmjs.com/package/@dns-data/remote) · [原有 GitHub v0.2.1 Release](https://github.com/DNSDATA/dns-data-mcp/releases/tag/v0.2.1) · [总发布页面](RELEASES.zh-CN.md)。
+
 
 **DNS-DATA Windows 用户端**已独立列出，拥有自己的使用说明、版本更新记录和下载入口，不与远程 MCP 服务端或 npm 启动器混用版本号。
 

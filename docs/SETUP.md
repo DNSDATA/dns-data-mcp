@@ -10,6 +10,8 @@
 - A compatible AI client that supports remote MCP over Streamable HTTP and OAuth
 
 ## Windows desktop user client
+**Release navigation:** [Original MCP/npm launcher 0.2.4](https://www.npmjs.com/package/@dns-data/remote) · [Original GitHub Release v0.2.1](https://github.com/DNSDATA/dns-data-mcp/releases/tag/v0.2.1) ⇄ [Windows desktop client v0.1.27](../windows-client/README.md) · [All releases](../RELEASES.md).
+
 
 For Windows 10/11 x64, you can use the standalone graphical [DNS-DATA Windows user client](../windows-client/README.md) instead of the npm launcher. It has separate version numbering, device-pairing controls, and an optional Windows logon auto-start toggle (disabled by default).
 

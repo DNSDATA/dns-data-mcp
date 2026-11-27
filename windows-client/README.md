@@ -7,6 +7,8 @@
 DNS-DATA Windows is a separate graphical **user-side application** for connecting a Windows computer to the DNS-DATA Remote MCP service. You can use it without the command-line npm launcher. It is **not** the MCP server and does not expose an independent public MCP endpoint.
 
 ## Download
+**Related releases:** [MCP/npm launcher 0.2.4](../docs/SETUP.md) · [npm package](https://www.npmjs.com/package/@dns-data/remote) · [Original GitHub integration Release v0.2.1](https://github.com/DNSDATA/dns-data-mcp/releases/tag/v0.2.1) · [All DNS-DATA releases](../RELEASES.md). These are separate releases, not Windows EXE versions.
+
 
 **[Download the latest active Windows EXE](https://dns-data.com/console/api/v1/desktop-releases/download/active)** · [Official checksum (SHA-256)](https://dns-data.com/console/api/v1/desktop-releases/checksum/active)
 

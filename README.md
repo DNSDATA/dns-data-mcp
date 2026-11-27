@@ -21,6 +21,8 @@ DNS-DATA is a hosted **remote Model Context Protocol (MCP)** service. Connect a 
 > **Free monthly allowance:** 1 registered computer and **10,000 DNS-DATA MCP tool calls each month**. The allowance automatically resets for the next month (00:00 UTC on the 1st). [Set up DNS-DATA →](docs/SETUP.md)
 
 ## Product downloads
+**Related releases:** [Windows desktop v0.1.27](windows-client/README.md) ⇄ [MCP/npm launcher 0.2.4](docs/SETUP.md) · [npm package](https://www.npmjs.com/package/@dns-data/remote) · [Original GitHub integration Release v0.2.1](https://github.com/DNSDATA/dns-data-mcp/releases/tag/v0.2.1) · [All releases](RELEASES.md).
+
 
 DNS-DATA's **Windows desktop user client** has its own installation guide, version history, and download link. It is separate from the hosted Remote MCP endpoint and the `@dns-data/remote` npm launcher.
 

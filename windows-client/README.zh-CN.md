@@ -7,6 +7,8 @@
 这是 DNS-DATA 专门面向 **Windows 用户端**的独立图形程序，用于将用户授权的 Windows 电脑连接至 DNS-DATA Remote MCP 服务。不需要通过命令行安装 npm 启动器。它**不是** MCP 服务端，也不提供另一个独立的公网 MCP 服务地址。
 
 ## 下载
+**关联的原有发布：** [MCP/npm 启动器 0.2.4](../docs/SETUP.zh-CN.md) · [npm 发布页面](https://www.npmjs.com/package/@dns-data/remote) · [原有 GitHub v0.2.1 Release](https://github.com/DNSDATA/dns-data-mcp/releases/tag/v0.2.1) · [总发布页面](../RELEASES.zh-CN.md)。它们与 Windows EXE 使用独立版本号。
+
 
 **[下载当前启用的 Windows 正式版 EXE](https://dns-data.com/console/api/v1/desktop-releases/download/active)** · [查看当前版本 SHA-256](https://dns-data.com/console/api/v1/desktop-releases/checksum/active)
 
