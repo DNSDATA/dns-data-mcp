@@ -6,6 +6,21 @@
 
 这是 DNS-DATA 专门面向 **Windows 用户端**的独立图形程序，用于将用户授权的 Windows 电脑连接至 DNS-DATA Remote MCP 服务。不需要通过命令行安装 npm 启动器。它**不是** MCP 服务端，也不提供另一个独立的公网 MCP 服务地址。
 
+## Windows 用户端的作用
+
+DNS-DATA Windows 用户端让用户通过图形界面，将自己的 Windows 10/11 电脑连接至 DNS-DATA 远程 MCP 服务，无需安装 Node.js 或通过命令行启动。它适合希望直接管理设备连接、并由 AI 在授权范围内操作电脑的 Windows 用户。
+
+主要功能：
+
+- **账号与设备绑定**：登录 DNS-DATA 账号，完成设备绑定和身份验证。
+- **连接服务管理**：通过按钮启动、停止或重启 MCP 连接。
+- **AI 远程操作**：在获得授权并符合设备权限的前提下，通过兼容的 AI 客户端查看系统信息、操作文件以及执行支持的命令。
+- **可选开机自启**：用户自行开启或关闭 Windows 登录后的自动启动，默认关闭。
+- **应用内更新**：检测新版本，支持多线程分段下载、断点续传和 SHA-256 校验。
+- **安全控制**：保留账号鉴权、设备绑定和访问权限检查。
+
+Windows 图形用户端与 MCP/npm 启动器连接同一 DNS-DATA 远程 MCP 服务，但分别面向图形界面和命令行使用场景，版本号相互独立。
+
 ## 下载
 **关联的原有发布：** [MCP/npm 启动器 0.2.4](../docs/SETUP.zh-CN.md) · [npm 发布页面](https://www.npmjs.com/package/@dns-data/remote) · [原有 GitHub v0.2.1 Release](https://github.com/DNSDATA/dns-data-mcp/releases/tag/v0.2.1) · [总发布页面](../RELEASES.zh-CN.md)。它们与 Windows EXE 使用独立版本号。
 

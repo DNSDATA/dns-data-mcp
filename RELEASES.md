@@ -11,8 +11,8 @@ The Windows graphical **user client**, the `@dns-data/remote` command-line launc
 | **GitHub integration documentation** | Repo Release `v0.2.1` · Oct 21, 2026 | [GitHub Releases page](https://github.com/DNSDATA/dns-data-mcp/releases) |
 | **Hosted Remote MCP endpoint** | Managed hosted service (no desktop version) | `https://mcp.dns-data.com/mcp` · [Integration guide](docs/SETUP.md) |
 
-**Windows downloads track the version enabled**Cross-linked release entries:** [Windows desktop v0.1.27](windows-client/README.md) ⇄ [MCP/npm launcher v0.2.4](docs/SETUP.md) ⇄ [Original GitHub Release v0.2.1](https://github.com/DNSDATA/dns-data-mcp/releases/tag/v0.2.1). [npm package](https://www.npmjs.com/package/@dns-data/remote). Each component keeps its own release version.
+**Cross-linked releases:** [Windows desktop v0.1.27](windows-client/README.md) ⇄ [MCP/npm launcher v0.2.4](docs/SETUP.md) ⇄ [Original GitHub Release v0.2.1](https://github.com/DNSDATA/dns-data-mcp/releases/tag/v0.2.1). [npm package](https://www.npmjs.com/package/@dns-data/remote). Each component keeps its own release version.
 
- in the official website release manager.** This GitHub documentation repository does not host the proprietary EXE. GitHub Releases currently includes integration/documentation releases; do not use the npm or GitHub integration tag as a Windows desktop client version.
+**Windows downloads follow the version enabled in the official website release manager.** This GitHub documentation repository does not host the proprietary EXE. GitHub Releases currently includes integration/documentation releases; do not use the npm or GitHub integration tag as a Windows desktop client version.
 
 [Windows user client](windows-client/README.md) · [Official website](https://dns-data.com/) · [GitHub Releases](https://github.com/DNSDATA/dns-data-mcp/releases)
