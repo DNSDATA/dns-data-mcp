@@ -5,7 +5,7 @@
 [![AllMCPs Verified](https://allmcps.com/api/badge/dns-data-remote-mcp)](https://allmcps.com/mcp/dns-data-remote-mcp?verify=3e4e5da3-d2b9-4826-8216-96d432a869f6)
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/dnsdata/dns-data-mcp)
 
-[简体中文](README.zh-CN.md) · [Official website](https://dns-data.com/) · [Monthly Free allowance](#free-monthly-allowance) · [Setup guide](docs/SETUP.md) · [npm launcher](https://www.npmjs.com/package/@dns-data/remote)
+[简体中文](README.zh-CN.md) · **[Windows desktop client](windows-client/README.md)** · [All releases](RELEASES.md) · [Official website](https://dns-data.com/) · [Monthly Free allowance](#free-monthly-allowance) · [Setup guide](docs/SETUP.md) · [npm launcher](https://www.npmjs.com/package/@dns-data/remote)
 
 DNS-DATA is a hosted **remote Model Context Protocol (MCP)** service. Connect a compatible AI client to computers you have registered and authorized. From your AI conversation, you can inspect systems, work with files, run supported commands, and automate your own workflows.
 
@@ -19,6 +19,17 @@ DNS-DATA is a hosted **remote Model Context Protocol (MCP)** service. Connect a 
 
 
 > **Free monthly allowance:** 1 registered computer and **10,000 DNS-DATA MCP tool calls each month**. The allowance automatically resets for the next month (00:00 UTC on the 1st). [Set up DNS-DATA →](docs/SETUP.md)
+
+## Product downloads
+
+DNS-DATA's **Windows desktop user client** has its own installation guide, version history, and download link. It is separate from the hosted Remote MCP endpoint and the `@dns-data/remote` npm launcher.
+
+| Product | Release line | Where to get it |
+| --- | --- | --- |
+| **[Windows desktop user client](windows-client/README.md)** (Windows 10/11 x64) | **v0.1.27** | [Official Windows download](https://dns-data.com/en/download/) · [Direct latest EXE](https://dns-data.com/console/api/v1/desktop-releases/download/active) |
+| Remote MCP / npm launcher | `@dns-data/remote` **0.2.4** | [npm package](https://www.npmjs.com/package/@dns-data/remote) · [MCP setup](docs/SETUP.md) |
+
+**[All DNS-DATA release lines](RELEASES.md)** · [GitHub Releases](https://github.com/DNSDATA/dns-data-mcp/releases). Windows app builds are hosted on the official DNS-DATA website, not in this documentation repository.
 
 ## See what your AI can do
 

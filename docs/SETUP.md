@@ -6,10 +6,16 @@
 
 - DNS-DATA account on https://dns-data.com/
 - A Windows x64 or macOS Apple Silicon computer you own or are authorized to access
-- Node.js 18 or newer for the official npm launcher
+- Node.js 18 or newer **when using the npm launcher** (not required for the separate Windows desktop EXE)
 - A compatible AI client that supports remote MCP over Streamable HTTP and OAuth
 
-## Connect a computer
+## Windows desktop user client
+
+For Windows 10/11 x64, you can use the standalone graphical [DNS-DATA Windows user client](../windows-client/README.md) instead of the npm launcher. It has separate version numbering, device-pairing controls, and an optional Windows logon auto-start toggle (disabled by default).
+
+[Windows download](https://dns-data.com/en/download/) · [All releases](../RELEASES.md)
+
+## Connect a computer using the npm launcher
 
 1. Open PowerShell (Windows) or Terminal (macOS).
 2. Run:

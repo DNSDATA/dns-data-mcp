@@ -4,7 +4,7 @@
 
 **让 AI 不只回答问题，还能在你的授权下读取文件、检查系统、执行命令和处理实际任务。**
 
-[English](README.md) · [官方网站](https://dns-data.com/) · [每月免费额度](#免费套餐每月调用额度) · [中文接入指南](docs/SETUP.zh-CN.md) · [npm 启动器](https://www.npmjs.com/package/@dns-data/remote)
+[English](README.md) · **[Windows 用户端](windows-client/README.zh-CN.md)** · [总发布页面](RELEASES.zh-CN.md) · [官方网站](https://dns-data.com/) · [每月免费额度](#免费套餐每月调用额度) · [中文接入指南](docs/SETUP.zh-CN.md) · [npm 启动器](https://www.npmjs.com/package/@dns-data/remote)
 
 DNS-DATA 是通过 **Model Context Protocol（MCP）** 提供的远程设备连接服务。用户将自己的 Windows 或 macOS 电脑绑定到 DNS-DATA 账户后，可使用支持远程 MCP 的 AI 软件连接在线设备，进行获准的文件操作、系统检查和开发自动化。
 
@@ -18,6 +18,17 @@ DNS-DATA 是通过 **Model Context Protocol（MCP）** 提供的远程设备连�
 
 
 > **免费套餐每月额度：** 支持 **1 台设备，每月 10,000 次 DNS-DATA MCP 工具调用**，**次月自动恢复额度**（UTC 每月 1 日 00:00，北京时间 08:00）。[查看接入教程 →](docs/SETUP.zh-CN.md)
+
+## 产品与下载
+
+**DNS-DATA Windows 用户端**已独立列出，拥有自己的使用说明、版本更新记录和下载入口，不与远程 MCP 服务端或 npm 启动器混用版本号。
+
+| 产品 | 版本 | 下载与说明 |
+| --- | --- | --- |
+| **[Windows 用户端](windows-client/README.zh-CN.md)**（Windows 10/11 x64） | **v0.1.27** | [官网下载页](https://dns-data.com/zh/download/) · [最新正式版 EXE](https://dns-data.com/console/api/v1/desktop-releases/download/active) |
+| 远程 MCP / npm 设备启动器 | `@dns-data/remote` **0.2.4** | [npm 页面](https://www.npmjs.com/package/@dns-data/remote) · [MCP 接入指南](docs/SETUP.zh-CN.md) |
+
+**[查看 DNS-DATA 总发布页面](RELEASES.zh-CN.md)** · [GitHub Releases](https://github.com/DNSDATA/dns-data-mcp/releases)。Windows 安装包由 DNS-DATA 官网分发，非本仓库的文档附件。
 
 ## DNS-DATA 能做什么？
 

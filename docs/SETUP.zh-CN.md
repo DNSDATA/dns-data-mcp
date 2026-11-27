@@ -8,12 +8,18 @@
 
 - 注册一个 [DNS-DATA 账号](https://dns-data.com/)。
 - 目标电脑：**Windows x64** 或 **macOS Apple Silicon (ARM64)**。
-- 目标电脑可以联网，并已安装 Node.js **18 或更高版本**（用于运行官方 npm 启动器）。
+- 目标电脑可以联网；**使用 npm 启动器时**需安装 Node.js **18 或更高版本**，独立 Windows 用户端 EXE 不要求安装 Node.js。
 - 你使用的 AI 客户端支持 **Streamable HTTP / Remote MCP**，且能完成 OAuth 登录。
 
 免费套餐支持 1 台已绑定设备、**每月 10,000 次 MCP 工具调用**；**次月自动恢复额度**（每月 1 日 00:00 UTC，北京时间 08:00）。
 
-## 步骤 1：在目标电脑启动 DNS-DATA
+## Windows 图形用户端
+
+Windows 10/11 x64 用户可安装独立的 [DNS-DATA Windows 用户端](../windows-client/README.zh-CN.md)，无需通过 npm 启动器运行。该版本线独立，支持服务启停、设备绑定及可选开机自启（默认关闭）。
+
+[Windows 官网下载](https://dns-data.com/zh/download/) · [总发布页面](../RELEASES.zh-CN.md)
+
+## 步骤 1：使用 npm 启动器启动 DNS-DATA
 
 Windows：打开 PowerShell。macOS：打开“终端”，执行：
 
